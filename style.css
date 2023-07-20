@@ -19,10 +19,11 @@ li {
 }
 
 img {
-    width: 300px;
-    height: auto;
+    height: 300px;
     border-radius: 8px;
     border: 2px solid black;
+    margin: 10px;
+    align-self: flex-start;
 }
 
 .ingredient-list,
@@ -58,4 +59,15 @@ h2 {
 
 .description {
     background: rgb(152, 251, 152, 30%);
+    margin: 10px;
 }
+
+.recipe-header {
+    display: flex;
+    min-width: 700px;
+    height: 325px;
+    margin-bottom: 20px;
+}
+
+
+
